@@ -18,7 +18,7 @@ const io = new Server(serverHttp, {
 })
 
 io.on('connection', socket => {
-    console.log(`User connected on socket: ${socket.id}`)
+    // console.log(`User connected on socket: ${socket.id}`)
 })
 
 app.use(express.json())
