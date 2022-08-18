@@ -45,7 +45,7 @@
 ## About The Project
 
 <img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
-The Feedback Widget Server API to save the feedbacks in the database and send an email with complete information about the feedback to the administrator. 
+The Chatbox Server API to authenticate and identify the user on GitHub, save the messages in the database and return the last 3 saved messages. 
 
 
 ### Built With 
