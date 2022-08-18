@@ -154,6 +154,10 @@ You will need to create a new OAuth App to authenticate with GitHub.
    ```cmd
    echo "GITHUB_CLIENT_SECRET=yourClientSecret" >> .env 
    ``` 
+   <div align="center">
+     <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185438241-5f30fed0-0818-47c4-ab76-46419b614c9f.jpg"> 
+   </div>
+   <br/>
 6. Include anywhere JWT key  
    ```cmd
    echo "JWT_SECRET=be6442cf487fa75ec9ed3788e57cbd4a" >> .env 
@@ -162,7 +166,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
    ```cmd
    yarn prisma migrate dev
    ```
- 
+
 
 <!---- USAGE EXAMPLES ----> 
 ## Usage
