@@ -132,8 +132,6 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```cmd
    echo "DATABASE_URL='postgresql://postgres:Hugo@12@localhost:5432/chatbox?schema=public'" > .env 
    ``` 
-<strong>ATTENTION:</strong> <i>Use the keys below for testing purposes only, create your own OAuth App for your private project.</i>
-
 4. Include in the `.env` my OAuth Client ID 
    ```cmd
    echo "GITHUB_CLIENT_ID=91e3c9778fc8c5f6673e" >> .env 
