@@ -153,8 +153,6 @@ With the installation complete, we can start the project.
   yarn prisma studio 
   ```
 
-<br/>  
-
 
 <!---- CONTRIBUTING ---->
 ## Contributing
