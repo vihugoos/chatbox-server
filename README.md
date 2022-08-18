@@ -55,6 +55,10 @@ The Chatbox Server API to authenticate and identify the user on GitHub, save the
     <a href="https://nodejs.org/en/"> 
       <img align="center" alt="Icon-Node.js" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"> 
     </a> &nbsp;
+    <!-- Icon Yarn --> 
+    <a href="https://yarnpkg.com/"> 
+      <img align="center" alt="Icon-Yarn" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/yarn/yarn-original.svg"> 
+    </a> &nbsp;
     <!-- Icon TypeScript --> 
     <a href="https://www.typescriptlang.org/"> 
       <img align="center" alt="Icon-TypeScript" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"> 
@@ -63,22 +67,22 @@ The Chatbox Server API to authenticate and identify the user on GitHub, save the
     <a href="https://www.prisma.io/"> 
       <img align="center" alt="Icon-Prisma" height="35" src="https://user-images.githubusercontent.com/44311634/178335052-08bb4b29-c4da-4100-ae71-8b65cf6cd581.png"> 
     </a> &nbsp;
-    <!-- Icon Express --> 
-    <a href="https://expressjs.com/"> 
-      <img align="center" alt="Icon-Express" height="35" src="https://user-images.githubusercontent.com/44311634/178337147-61b1e696-b4ef-4f78-8151-c3fb2597050a.png"> 
-    </a> &nbsp;
-    <!-- Icon Nodemailer 
-    <a href="https://nodemailer.com/about/"> 
-      <img align="center" alt="Icon-Nodemailer" height="35" src="https://user-images.githubusercontent.com/44311634/178336455-62647b4d-4187-443e-a973-452774dbcdba.png"> 
-    </a> &nbsp; -->
-    <!-- Icon Jest -->
-    <a href="https://jestjs.io/"> 
-      <img align="center" alt="Icon-Jest" height="35" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"> 
+    <!-- Icon Socket.IO --> 
+    <a href="https://socket.io/"> 
+      <img align="center" alt="Icon-Socket.IO" height="35" src="https://user-images.githubusercontent.com/44311634/185236383-1c8c6abb-bb45-4505-a382-81f1d6eb3a1d.png"> 
     </a> &nbsp;
     <!-- Icon PostgreSQL --> 
     <a href="https://www.postgresql.org/"> 
       <img align="center" alt="Icon-PostgreSQL" height="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg"> 
+    </a> &nbsp;
+    <!-- Icon Express --> 
+    <a href="https://expressjs.com/"> 
+      <img align="center" alt="Icon-Express" height="35" src="https://user-images.githubusercontent.com/44311634/178337147-61b1e696-b4ef-4f78-8151-c3fb2597050a.png"> 
     </a> 
+    <!-- Icon Axios -->
+    <a href="https://axios-http.com/"> 
+      <img align="center" alt="Icon-Axios" height="55" src="https://user-images.githubusercontent.com/44311634/178089407-0176462e-7e60-4f4f-9ad8-5429a22b2c5c.png"> 
+    </a>
 </div>
 
 <br/>
