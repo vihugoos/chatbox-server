@@ -94,12 +94,12 @@ The Chatbox Server API to authenticate and identify the user on GitHub, save the
 
 To get started, you need to have <strong>Node.js 16+</strong> installed on your machine, for more information visit <a href="https://nodejs.org/en/download/"> Node.js Downloads</a>. You will also need to have <strong>PostgreSQL</strong> installed, for more information visit <a href="https://www.enterprisedb.com/downloads/postgres-postgresql-downloads"> PostgreSQL Downloads</a>. 
 
-<strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `feedback_widget` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
+<strong>WARNING</strong>: Add PostgreSQL executable path to user <strong>environment variables</strong>, to be able to use the `psql` command in the terminal, or create a database called `chatbox` via graphical user interface using the pgAdmin, it's up to you what you think is best. <strong>Note:</strong> This installation guide is based on Windows systems. 
 
 
 ### Prerequisites 
 
-First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `feedback_widget`, just run the first command below. 
+First of all, we need to ensure that the database server is running, to do so, run the following commands in case you haven't created the database manually via pgAdmin, as mentioned above, if you have already created the database `chatbox`, just run the first command below. 
 
 1. Open cmd terminal as <strong>administrator</strong> (<i>looking at psql version, in this case 14</i>)
    ```cmd
@@ -111,7 +111,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```
 3. Create a database 
    ```cmd
-   CREATE DATABASE feedback_widget;
+   CREATE DATABASE chatbox;
    ```
 4. Quit psql 
    ```cmd
@@ -122,11 +122,11 @@ First of all, we need to ensure that the database server is running, to do so, r
 
 1. Clone the repo 
    ```bash
-   git clone https://github.com/vihugoos/feedback-widget-server.git
+   git clone https://github.com/vihugoos/chatbox-server.git
    ```
 2. Inside the project root directory install all project dependencies 
    ```cmd
-   npm install
+   yarn install
    ```
 3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
@@ -134,7 +134,7 @@ First of all, we need to ensure that the database server is running, to do so, r
    ``` 
 4. Run the migrate 
    ```cmd
-   npx prisma migrate dev
+   yarn prisma migrate dev
    ```
  
 
@@ -145,25 +145,15 @@ With the installation complete, we can start the project.
 
 * Starting the project 
    ```bash
-   npm run dev  
+   yarn run dev  
    ```
    
 * To view the database feedback table in an easy and intuitive way, just use Prisma Studio
   ```
-  npx prisma studio 
+  yarn prisma studio 
   ```
 
-
-<!---- TESTS ----> 
-## Tests
-
-Keep all tests always with <strong>100% coverage</strong>, for more information see `.\coverage\Icov-report\index.html`
-
-* Run tests  
-   ```cmd
-   npm run test
-   ```
-  <br/>  
+<br/>  
 
 
 <!---- CONTRIBUTING ---->
