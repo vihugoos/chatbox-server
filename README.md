@@ -45,7 +45,7 @@
 ## About The Project
 
 <img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
-The Chatbox Server API to authenticate and identify the user on GitHub, save the messages in the database and return the last 3 saved messages. 
+The Chatbox Server API to authenticate and identify the user on GitHub (using OAuth Apps), save the messages in the database and return the last 3 saved messages. 
 
 
 ### Built With 
@@ -130,9 +130,23 @@ First of all, we need to ensure that the database server is running, to do so, r
    ```
 3. Create an `.env` file with the database connection configuration (don't forget to change the password) 
    ```cmd
-   echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/feedback_widget?schema=public'" > .env 
+   echo "DATABASE_URL='postgresql://postgres:Hugo@12@localhost:5432/chatbox?schema=public'" > .env 
    ``` 
-4. Run the migrate 
+<strong>ATTENTION:</strong> <i>Use the keys below for testing purposes only, create your own OAuth App for your private project.</i>
+
+4. Include in the `.env` my OAuth Client ID 
+   ```cmd
+   echo "GITHUB_CLIENT_ID=91e3c9778fc8c5f6673e" >> .env 
+   ``` 
+5. Include client secret  
+   ```cmd
+   echo "GITHUB_CLIENT_SECRET=408b95d242984b151676f58d0d350ca9f91e9b10" >> .env 
+   ``` 
+6. Include JWT key  
+   ```cmd
+   echo "JWT_SECRET=be6442cf487fa75ec9ed3788e57cbd4a" >> .env 
+   ``` 
+7. Run the migrate 
    ```cmd
    yarn prisma migrate dev
    ```
