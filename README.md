@@ -120,7 +120,7 @@ First of all, we need to ensure that the database server is running, to do so, r
 
 You will need to create a new OAuth App to authenticate with GitHub.
 
-* On your GitHub, in <strong>Settings > Developer Settings > OAuth Apps > New OAuth App</strong>, create a new app  
+* On your GitHub profile, in <strong>Settings > Developer Settings > OAuth Apps > New OAuth App</strong>, create a new app  
   <br/> 
   <div align="center">
     <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185431006-e57002a0-7fb5-4e89-96ab-044b8c320e66.jpg"> 
