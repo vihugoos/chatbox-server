@@ -158,7 +158,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185438517-9a45f03e-c859-4c2e-aa01-69691e91f4d1.jpg"> 
    </div>
    <br/>
-6. Include anywhere JWT key  
+6. Include any JWT key 
    ```cmd
    echo "JWT_SECRET=be6442cf487fa75ec9ed3788e57cbd4a" >> .env 
    ``` 
