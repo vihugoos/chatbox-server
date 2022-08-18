@@ -123,7 +123,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
 * On your GitHub, in <strong>Settings > Developer Settings > OAuth Apps > New OAuth App</strong>, create a new app  
   <br/> 
   <div align="center">
-    <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185429796-3f99f6de-eea8-49b9-9a96-a9b53b648d22.jpg"> 
+    <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185430342-9528eca9-a27e-4544-bd8b-0dadd40635d7.jpg"> 
   </div>
   <br/>
 
