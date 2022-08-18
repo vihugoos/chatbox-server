@@ -1,22 +1,17 @@
 <div id="top"> </div>
 
-[![tests](https://github.com/vihugoos/feedback-widget-server/actions/workflows/test.yml/badge.svg)](https://github.com/vihugoos/feedback-widget-server/actions/workflows/test.yml)
-[![Coverage Status](https://coveralls.io/repos/github/vihugoos/feedback-widget-server/badge.svg?branch=main)](https://coveralls.io/github/vihugoos/feedback-widget-server?branch=main)
-[![Build Status](https://app.travis-ci.com/vihugoos/feedback-widget-server.svg?branch=main)](https://app.travis-ci.com/vihugoos/feedback-widget-server)
-
 <!---- PROJECT LOGO ----> 
 <div align="center">
 
   <h2 align="center"> 
-    Feedback Widget - Server API
+    Chatbox - Server API
   </h2>
   
   <p align="center">
-    The feedback widget server to save feedbacks and send emails, developed with Node.js <br/>
+    The Chatbox Server to authenticate and identify the user on GitHub, developed with Node.js <br/>
     Explore <a href="https://nodejs.org/en/docs/">Node.js</a> docs &#187; <br/> <br/>
-    <a href="https://feedback-widget-server-production-fc59.up.railway.app/"> Deployment URL </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Report Bug </a> &nbsp;•&nbsp;
-    <a href="https://github.com/vihugoos/feedback-widget-server/issues"> Request Feature </a>
+    <a href="https://github.com/vihugoos/chatbox-server/issues"> Report Bug </a> &nbsp;•&nbsp;
+    <a href="https://github.com/vihugoos/chatbox-server/issues"> Request Feature </a>
   </p>
 </div>
 
@@ -39,7 +34,6 @@
       </ul>
     </li>
     <li><a href="#usage"> Usage </a></li>
-    <li><a href="#tests"> Tests </a></li>
     <li><a href="#contributing"> Contributing </a></li>
     <li><a href="#contact"> Contact </a></li>
   </ol>
