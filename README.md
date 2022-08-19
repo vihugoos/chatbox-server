@@ -154,7 +154,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
    ```cmd
    echo "VITE_OAUTH_APP_CLIENT_ID=yourClientID" >> .env.local 
    ``` 
-6. Now back to the server project, let's add the client secret, for that, click on <strong>'Generate a new client secret'</strong> 
+6. Now back to our server API project, let's add the client secret, for that, click on <strong>'Generate a new client secret'</strong> 
    ```cmd
    echo "GITHUB_CLIENT_SECRET=yourClientSecret" >> .env 
    ``` 
