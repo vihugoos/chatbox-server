@@ -142,9 +142,9 @@ You will need to create a new OAuth App to authenticate with GitHub.
    ```cmd
    echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/chatbox?schema=public'" > .env 
    ``` 
-4. Include in the `.env` your OAuth Client ID of the OAuth we created
+4. Include in the `.env` your OAuth Client ID from the OAuth App we created above 
    ```cmd
-   echo "GITHUB_CLIENT_ID=yourOAuthID" >> .env 
+   echo "GITHUB_CLIENT_ID=yourClientID" >> .env 
    ```
    <div align="center">
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185434210-637475e7-17ac-4aea-a0c9-d88be20767b4.jpg"> 
