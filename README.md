@@ -150,7 +150,11 @@ You will need to create a new OAuth App to authenticate with GitHub.
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185434210-637475e7-17ac-4aea-a0c9-d88be20767b4.jpg"> 
    </div>
    <br/>
-5. Include the client secret, for that, click on <strong>'Generate a new client secret'</strong> 
+5. Inside the project root directory of the <a href="https://github.com/vihugoos/chatbox-web">@chatbox-web</a>, also include your OAuth Client ID
+   ```cmd
+   echo "VITE_OAUTH_APP_CLIENT_ID=yourClientID" >> .env.local 
+   ``` 
+6. Include the client secret, for that, click on <strong>'Generate a new client secret'</strong> 
    ```cmd
    echo "GITHUB_CLIENT_SECRET=yourClientSecret" >> .env 
    ``` 
@@ -162,11 +166,11 @@ You will need to create a new OAuth App to authenticate with GitHub.
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185438517-9a45f03e-c859-4c2e-aa01-69691e91f4d1.jpg"> 
    </div>
    <br/>
-6. Include any JWT key 
+7. Include any JWT key 
    ```cmd
    echo "JWT_SECRET=ggf54gfhgffghf4879ed37847rh4nfriunf3362" >> .env 
    ``` 
-7. Run the migrate 
+8. Run the migrate 
    ```cmd
    yarn prisma migrate dev
    ```
