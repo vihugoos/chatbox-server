@@ -150,7 +150,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185434210-637475e7-17ac-4aea-a0c9-d88be20767b4.jpg"> 
    </div>
    <br/>
-5. Inside the project root directory of the <a href="https://github.com/vihugoos/chatbox-web">@chatbox-web</a>, also include your OAuth Client ID
+5. Install the <a href="https://github.com/vihugoos/chatbox-web">@chatbox-web</a> project and inside the project root directory also include your OAuth Client ID
    ```cmd
    echo "VITE_OAUTH_APP_CLIENT_ID=yourClientID" >> .env.local 
    ``` 
