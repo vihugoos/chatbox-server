@@ -168,7 +168,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
    <br/>
 7. Include any JWT key 
    ```cmd
-   echo "JWT_SECRET=ggf54gfhgffghf4879ed37847rh4nfriunf3362" >> .env 
+   echo "JWT_SECRET=ghgffghf4584397584395qvçs47rh4nfriunf3362" >> .env 
    ``` 
 8. Run the migrate 
    ```cmd
