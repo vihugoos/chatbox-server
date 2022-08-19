@@ -142,7 +142,7 @@ You will need to create a new OAuth App to authenticate with GitHub.
    ```cmd
    echo "DATABASE_URL='postgresql://postgres:yourPassword@localhost:5432/chatbox?schema=public'" > .env 
    ``` 
-4. Include in the `.env` your OAuth Client ID from the OAuth App we created above, click in <strong>'Generate Client Secret'</strong> 
+4. Include in the `.env` your OAuth Client ID from the OAuth App we created above  
    ```cmd
    echo "GITHUB_CLIENT_ID=yourClientID" >> .env 
    ```
@@ -150,10 +150,14 @@ You will need to create a new OAuth App to authenticate with GitHub.
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185434210-637475e7-17ac-4aea-a0c9-d88be20767b4.jpg"> 
    </div>
    <br/>
-5. Include the client secret  
+5. Include the client secret, for that, click on <strong>'Generate a new client secret'</strong> 
    ```cmd
    echo "GITHUB_CLIENT_SECRET=yourClientSecret" >> .env 
    ``` 
+   <div align="center">
+     <img align="center" alt="Auth-GenerateToken" src="https://user-images.githubusercontent.com/44311634/185701668-b0769de4-4fb4-4f67-a4f3-c5b364f17516.jpg"> 
+   </div>
+   <br/>
    <div align="center">
      <img align="center" alt="Auth-Tokens" src="https://user-images.githubusercontent.com/44311634/185438517-9a45f03e-c859-4c2e-aa01-69691e91f4d1.jpg"> 
    </div>
@@ -183,6 +187,7 @@ With the installation complete, we can start the project.
   yarn prisma studio 
   ```
 <br/>
+
 
 <!---- CONTRIBUTING ---->
 ## Contributing
