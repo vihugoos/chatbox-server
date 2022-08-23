@@ -44,7 +44,7 @@
 <!---- THE PROJECT ---->
 ## About The Project
 
-<img src="https://user-images.githubusercontent.com/44311634/178651138-54b1b11c-0776-48d0-8ec8-436671eeab48.png" align="center" align="center" alt="Project Home Page">
+<img src="https://user-images.githubusercontent.com/44311634/186232542-ee1c55c2-d2bb-4cad-9967-de691449caa3.png" align="center" align="center" alt="Project Home Page">
 The Chatbox Server API to authenticate and identify the user on GitHub (using OAuth App), save the messages in the database and return the last 3 saved messages. 
 
 
