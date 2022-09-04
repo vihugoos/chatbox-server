@@ -212,6 +212,6 @@ Don't forget to give the project a star! Thanks again!
 <!---- CONTACT ---->
 ## Contact
 
-Developer @vihugoos - victorhugoos@live.com 
+Developer @vihugoos - victorhugoos@live.com  
 
 <p align="right"><a href="#top"> &#129045; back to top </a></p> 
