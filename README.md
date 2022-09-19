@@ -186,7 +186,7 @@ With the installation complete, we can start the project.
    yarn run dev  
    ```
    
-* To view the database feedback table in an easy and intuitive way, just use Prisma Studio
+* To view the database in an easy and intuitive way, just use Prisma Studio
   ```
   yarn prisma studio 
   ```
